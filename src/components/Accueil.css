@@ -1,0 +1,48 @@
+.titlepage {
+  font-family: "Acme", sans-serif;
+  text-align: center;
+  font-size: 34px;
+}
+
+.sectionHP {
+  background-color: black;
+  box-shadow: 10px 5px 5px black;
+  margin-bottom: 35px;
+}
+
+.titleHP {
+  color: white;
+  font-family: "Acme", sans-serif;
+  margin: 10px;
+}
+
+.romainM {
+  width: 100%;
+  box-shadow: 10px 5px 5px black;
+}
+
+.biographie {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 15px;
+  font-size: 22px;
+  text-align: justify;
+}
+
+.sectionBP {
+  background-color: white;
+}
+
+.titleBP {
+  color: #f07878;
+  font-family: "Acme" sans-serif;
+  margin: 10px;
+}
+
+.biolight {
+  color: #f07878;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 15px;
+  font-size: 22px;
+  text-align: justify;
+}
