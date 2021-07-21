@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 
 export default function App() {
   return (
-    <div className="Carousel" style={{ display: "block", width: 400, padding: 50 }}>
+    <div className="Carousel">
       <h4>React-Bootstrap Carousel Component</h4>
       <Carousel>
         <Carousel.Item>
