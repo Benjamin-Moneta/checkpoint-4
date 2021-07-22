@@ -9,7 +9,7 @@ function Galerie() {
 
   return (
     <div>
-      <div>
+      <div className="divG">
         <h1 className="titleHG">La Galerie Photo</h1>
       </div>
       <div className="carousel">
@@ -38,6 +38,40 @@ function Galerie() {
             <ArrowFowardIosIcon style={{ fontSize: 30 }} />
           </div>
         </div>
+      </div>
+      <div className="galerieS">
+        <table className="tableauGal">
+          <tr className="tblImg">
+            <td>
+              <img className="imgGalerie" src="../../img/expo1.jpg" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img className="imgGalerie" src="../../img/bulle.jpeg" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img className="imgGalerie" src="../../img/banc.jpg" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img className="imgGalerie" src="../../img/spiral.jpg" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img className="imgGalerie" src="../../img/fleurs.jpg" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img className="imgGalerie" src="../../img/arbre.jpg" />
+            </td>
+          </tr>
+        </table>
       </div>
     </div>
   );

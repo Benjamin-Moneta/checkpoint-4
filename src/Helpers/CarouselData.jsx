@@ -5,6 +5,7 @@ import Fleurs from "../../img/fleurs.jpg";
 import Bulle from "../../img/bulle.jpeg";
 import Banc from "../../img/banc.jpg";
 import Spiral from "../../img/spiral.jpg";
+import Arbre from "../../img/arbre.jpg";
 
 export const images = [
   { title: "Appareil", subtitle: "Appareil photo lumineux", img: Appareil },
@@ -14,5 +15,6 @@ export const images = [
   { title: "Bulle", subtitle: "La bulle en lumière", img: Bulle },
   { title: "Banc", subtitle: "L'homme du banc", img: Banc },
   { title: "Spiral", subtitle: "La spiral de lumière", img: Spiral },
+  { title: "Arbre", subtitle: "L'arbre de lumière", img: Arbre },
 
 ];
