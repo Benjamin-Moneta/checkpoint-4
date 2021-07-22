@@ -1,46 +1,22 @@
-import React from "react";
-import Carousel from "react-bootstrap/Carousel";
-import "bootstrap/dist/css/bootstrap.css";
+import React, { useState } from "react";
+import "./Galerie.css";
+import { images } from "../Helpers/CarouselData";
 
-export default function App() {
+function Galerie() {
+  const [currImg, setCurrImg] = useState(0);
+
   return (
-    <div className="Carousel">
-      <h4>React-Bootstrap Carousel Component</h4>
-      <Carousel>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="img/photoRM.jpg"
-            alt="First slide"
-          />
-          {/* <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption> */}
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="img/voiture.jpg"
-            alt="First slide"
-          />
-          {/* <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption> */}
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="img/jadikan.jpg"
-            alt="First slide"
-          />
-          {/* <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption> */}
-        </Carousel.Item>
-      </Carousel>
+    <div className="carousel">
+      <div
+        className="carouselInner"
+        style={{ backgroundImage: `url(${images[currImg].img})` }}
+      >
+        <div className="left"></div>
+        <div className="center"></div>
+        <div className="right"></div>
+      </div>
     </div>
   );
 }
+
+export default Galerie;
