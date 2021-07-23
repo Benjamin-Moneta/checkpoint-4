@@ -16,7 +16,7 @@ function Contact() {
         <table className="form-style">
           <tr>
             <td>
-              <label>
+              <label className="labelnom">
                 Votre nom <span className="required">*</span>
               </label>
             </td>
@@ -26,7 +26,7 @@ function Contact() {
           </tr>
           <tr>
             <td>
-              <label>
+              <label className="labeladresse">
                 Votre adresse e-mail <span className="required">*</span>
               </label>
             </td>
@@ -36,7 +36,7 @@ function Contact() {
           </tr>
           <tr>
             <td>
-              <label>
+              <label className="labelmessage">
                 Votre Message <span className="required">*</span>
               </label>
             </td>
