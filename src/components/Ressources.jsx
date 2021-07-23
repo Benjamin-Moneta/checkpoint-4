@@ -21,7 +21,7 @@ import "./Ressources.css";
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 500,
-    marginBottom: 130,
+    marginBottom: 10,
   },
   media: {
     height: 0,
@@ -44,13 +44,13 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Ressources() {
   const classes = useStyles();
-  const [cards, setCards] = useState(0);
+  
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
-
+  
   return (
     <>
     {data.map(card => <Card className={classes.root}>

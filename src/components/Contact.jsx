@@ -12,6 +12,7 @@ function Contact() {
         onSubmit="return validateForm()"
         method="post"
       >
+        <p className="ChampsObl">* Champs obligatoires</p>
         <table className="form-style">
           <tr>
             <td>
@@ -54,12 +55,13 @@ function Contact() {
             </td>
           </tr>
         </table>
-        <p className="ChampsObl">* Champs obligatoires</p>
       </form>
 
       <h2 className="title2">Les auteurs de ce site :</h2>
 
-      <h3 className="title3">Les Zartistes de la Wild Code School de la loupe, promotion 2021.</h3>
+      <h3 className="title3">
+        Les Zartistes de la Wild Code School de la loupe, promotion 2021.
+      </h3>
 
       <section class="form2">
         <div class="cards">

@@ -1,164 +1,169 @@
-.TitleContact {
-  text-align: center;
-  font-family: Acme;
-}
+@media screen and (max-width: 375px) {
+  .TitleContact {
+    text-align: center;
+    font-family: Acme;
+    font-size: 45px;
+  }
 
-form {
-  background-image: url("../../img/romainmillet.jpg");
-  border-radius: 20px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  max-width: 93%;
-  height: auto;
-  color: #fff;
-  opacity: 0.8;
-}
+  form {
+    background-image: url("../../img/romainmillet.jpg");
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    color: #fff;
+    /* opacity: 0.8; */
+  }
 
-.form-style {
-  margin: 15px auto;
-  width: 345px;
-  padding: 20px 8px 10px 20px;
-  font: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-}
+  .form-style {
+    margin: 15px auto;
+    width: 345px;
+    padding: 20px 8px 10px 20px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
-.form-style td {
-  padding: 0;
-  display: block;
-  list-style: none;
-  margin: 10px 0 0 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+  .form-style td {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    margin: 10px 40px 5px -10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
-.form-style label {
-  margin: 0 0 3px 0;
-  padding: 0px;
-  display: block;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #f07878;
-}
+  .form-style label {
+    margin: 0 0 3px 0;
+    padding: 0px;
+    display: flex;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f07878;
+  }
 
-.form-style input[type="submit"],
-.form-style input[type="reset"] {
-  background: #e9e9e9;
-  border-radius: 20px;
-  padding: 8px 15px 8px 15px;
-  border: none;
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-}
+  .form-style input[type="submit"],
+  .form-style input[type="reset"] {
+    background: #e9e9e9;
+    border-radius: 20px;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 2px;
+  }
 
-.form-style .field-textarea {
-  height: 100px;
-}
+  .form-style .field-textarea {
+    height: 100px;
+  }
 
-.form-style input[type="text"],
-.form-style input[type="email"],
-textarea {
-  box-sizing: border-box;
-  border-radius: 20px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  border: 1px solid #ffffff;
-  padding: 7px;
-  margin: 0px;
-  outline: none;
-  background: #ffffff;
-  opacity: 0.4;
-  font-family: Arial, Helvetica, sans-serif;
-}
+  .form-style input[type="text"],
+  .form-style input[type="email"],
+  textarea {
+    box-sizing: border-box;
+    border-radius: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #dfdfdf;
+    padding: 7px;
+    margin: 0px;
+    outline: none;
+    background: #dfdfdf;
+    /* opacity: 0.4; */
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
-.form-style .long {
-  width: 100%;
-}
-.ChampsObl {
-  margin: 10px 20px;
-  font: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: right;
-  color: red;
-  text-shadow: 10px 5px 10px #000000;
-}
+  .form-style .long {
+    width: 100%;
+  }
+  .ChampsObl {
+    margin: -25px -20px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #f07878;
+    text-shadow: 10px 5px 10px #000000;
+  }
 
-.title2 {
-  text-align: center;
-  font-family: Acme;
-  color: #f07878;
-}
+  .title2 {
+    text-align: center;
+    font-family: Acme;
+    color: #f07878;
+  }
 
-.title3 {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #f07878;
-  font-weight: lighter;
-}
+  .title3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f07878;
+    font-weight: lighter;
+    padding-bottom: 15px;
+  }
 
-.card-name {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #f07878;
-  font-weight: lighter;
-}
+  .card-name {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f07878;
+    font-weight: lighter;
+  }
 
-.cards {
-  border-radius: 20px;
-  background-color: #bebebe;
-}
+  .cards {
+    border-radius: 20px;
+    background-color: #bebebe;
+  }
 
-.logopromo {
-  background-size: cover;
-  background-position: center;
-  height: 200px;
-  width: 100%;
-  background-image: url("../../img/écusson.png");
-}
+  .logopromo {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    background-image: url("../../img/écusson.png");
+  }
 
-.card-body {
-  margin: auto;
-  text-align: center;
-  vertical-align: middle;
-}
+  .card-body {
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+  }
 
-.photomédaillon1 {
-  background-position: center;
-  display: inline-block;
-  background-size: cover;
-  background-image: url("../../img/Benjamin.jpg");
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  width: 120px;
-  height: 120px;
-  margin: auto;
-  vertical-align: middle;
-}
+  .photomédaillon1 {
+    background-position: center;
+    display: inline-block;
+    background-size: cover;
+    background-image: url("../../img/Benjamin.jpg");
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    width: 120px;
+    height: 120px;
+    margin: 2px;
+    vertical-align: middle;
+  }
 
-.photomédaillon2 {
-  background-position: center;
-  display: inline-block;
-  background-size: cover;
-  background-image: url("../../img/MarieHélène.jpg");
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  width: 120px;
-  height: 120px;
-  margin: auto;
-  vertical-align: middle;
-}
+  .photomédaillon2 {
+    background-position: center;
+    display: inline-block;
+    background-size: cover;
+    background-image: url("../../img/MarieHélène.jpg");
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    width: 120px;
+    height: 120px;
+    margin: 2px;
+    vertical-align: middle;
+  }
 
-.photomédaillon3 {
-  background-position: center;
-  display: inline-block;
-  background-size: cover;
-  background-image: url("../../img/Claire.jpg");
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  width: 120px;
-  height: 120px;
-  margin: auto;
-  vertical-align: middle;
+  .photomédaillon3 {
+    background-position: center;
+    display: inline-block;
+    background-size: cover;
+    background-image: url("../../img/Claire.jpg");
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    width: 120px;
+    height: 120px;
+    margin: 2px;
+    vertical-align: middle;
+  }
 }

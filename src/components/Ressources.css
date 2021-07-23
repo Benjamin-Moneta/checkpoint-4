@@ -1,8 +1,29 @@
-.description1 {
+@media screen and (max-width: 375px) {
+  .description1 {
     font-size: 0.8rem;
-}
+  }
 
-.paragraphe1 {
+  .paragraphe1 {
     font-size: 1rem;
     display: flex;
+  }
+
+  .MuiAvatar-root,
+  .MuiAvatar-circular,
+  .makeStyles-avatar-65,
+  .MuiAvatar-colorDefault {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    overflow: hidden;
+    position: static !important;
+    font-size: 1.25rem;
+    align-items: unset !important;
+    flex-shrink: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1;
+    user-select: none;
+    border-radius: 50%;
+    justify-content: center;
+  }
 }
